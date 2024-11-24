@@ -7,7 +7,7 @@ st.markdown("I am Be Xanh Tuoi Chatbot based on Genimi-Pro what can I help you t
 API_input = st.text_input("Gemini API Key" , type="password")
 
 if not API_input:
-     st.warning("Please enter your API key to proceed.")
+     st.warning("Please enter your [API](https://ai.google.dev/) key to proceed.")
 
 else:
     try:
