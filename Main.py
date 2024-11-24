@@ -22,4 +22,4 @@ else:
             st.write(response.text)
             
     except Exception:
-        st.error('Please enter the correct API Key')
+        st.error('Please enter the correct [API](https://ai.google.dev/) Key')
